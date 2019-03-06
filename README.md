@@ -9,7 +9,10 @@ Steps for setting up and running NMEA CAN bus on arduino:
 
 
 2. Install required libraries for the NMEA stuff by going through all installation directions: https://github.com/ttlappalainen/NMEA2000/blob/master/Documents/NMEA2000_library_reference.pdf
+   
+3. Download OpenSkipper to be able to read data from testing: http://openskipper.org/openskipperwordpress/?page_id=6. This reads the NMEA2000 CAN signals being sent out from the Arduino and shows it in a visual manner.
 
-3.  - (For Mac) Install Mono for your ubuntu environment (16.04) and run through the steps at the end of step 3 to check your installation (https://www.mono-project.com/download/stable) This is to help you run the windows applications in linux
+4.  - (For Mac) Install Mono for your ubuntu environment (16.04) and run through the steps at the end of step 3 to check your installation (https://www.mono-project.com/download/stable) This is to help you run the windows applications in linux
 
     - (For PC) You should be able to just download based on the directions here: http://openskipper.org/openskipperwordpress/?page_id=6
+
