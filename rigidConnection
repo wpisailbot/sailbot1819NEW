@@ -50,12 +50,9 @@ void loop() {
   if (connectedTCP()) {
     connectionCount = 0;
     digitalWrite(onBoardLED, HIGH);
-    Serial.println(connectionCount);
-    Serial.println("You've connected to the ESP!!");
   } else {
     connectionCount++;
     if (connectionCount >= 4) {
-      Serial.println("idk what happened to connection");
       openTCP(DST_IP, DST_PORT);    //if no message is recieved than there is no connection so the port is openend
       delay(50);
     }
