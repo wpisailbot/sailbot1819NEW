@@ -35,9 +35,6 @@ void setup() {
 }
 
 void loop() {
-  //delay(50);  for serial testing no wifi
-  //----------------------------------------------------------------------
-  //Wifi communication and message parsing
   digitalWrite(onBoardLED,LOW);
   
   if (Serial.available()) {
